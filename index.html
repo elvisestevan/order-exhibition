@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.1/angular.min.js"></script>
+        <script type="application/javascript" src="app.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    </head>
+    <body ng-app="erp" ng-controller="OrderController as orderAs">
+        <div class="order-head">
+            {{orderAs.order.orderNumber}}
+        </div>
+        <div name="tab" ng-controller="TabController as tabAs">
+            <ul class="nav nav-tabs">
+                <li role="presentation" ng-class="{'active' : tabAs.tabIsSetted(1)}"><a ng-click="tabAs.setTab(1)" href="">Products</a></li>
+                <li role="presentation" ng-class="{'active' : tabAs.tabIsSetted(2)}"><a ng-click="tabAs.setTab(2)" href="">History</a></li>
+            </ul>
+            <div ng-show="tabAs.tabIsSetted(1)">
+                Products
+            </div>
+            <div ng-show="tabAs.tabIsSetted(2)">
+                History
+            </div>
+        </div>
+    </body>
+</html>

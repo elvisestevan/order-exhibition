@@ -1,0 +1,58 @@
+{
+    "orderNumber" : "50352912",
+    "products" : [
+        {
+            "sku" : "100430",
+            "barcode" : "7893628074521",
+            "productName" : "CONDICIONADOR ÁCIDO GEL SERINGA DENTSPLY",
+            "batch" : "140228H",
+            "expirationDate" : "2018-11-30T00:00:00.000Z",
+            "unitPrice" : 16.24,
+            "quantity" : 5.0
+        },{
+            "sku" : "100440",
+            "barcode" : "7898433202565",
+            "productName" : "GORRO PCT C/ 100",
+            "batch" : "310-15",
+            "expirationDate" : "2017-10-30T00:00:00.000Z",
+            "unitPrice" : 12.74,
+            "quantity" : 1.0
+        },{
+            "sku" : "100451",
+            "barcode" : "9900000012335",
+            "productName" : "PAPEL CARBONO C/12 FOLHAS",
+            "batch" : "MO59/15",
+            "expirationDate" : "2018-11-30T00:00:00.000Z",
+            "unitPrice" : 5.07,
+            "quantity" : 3.0
+        }
+    ],
+    "statuses" : [
+        {
+            "user" : "INTEGRADOR",
+            "status" : "LIBERADO PARA SEPARACAO",
+            "date" : "2016-01-15T15:48:00.000Z",
+            "details" : null
+        },{
+            "user" : "VICTOR",
+            "status" : "AGUARDANDO PICKING",
+            "date" : "2016-01-25T11:37:00.000Z",
+            "details" : null
+        },{
+            "user" : "TATIANA",
+            "status" : "EFETUANDO PACKING",
+            "date" : "2016-01-25T15:15:00.000Z",
+            "details" : null
+        },{
+            "user" : "TATIANA",
+            "status" : "AGUARDANDO NOTA FISCAL",
+            "date" : "2016-01-25T18:15:00.000Z",
+            "details" : null
+        },{
+            "user" : "TATIANA",
+            "status" : "AGUARDANDO EXPEDICAO",
+            "date" : "2016-01-25T18:17:00.000Z",
+            "details" : "NOTA FISCAL RECEBIDA"
+        }
+    ]
+}
